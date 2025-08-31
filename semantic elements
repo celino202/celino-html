@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head><title>learning semantic elements
+    </title></head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">home</a>
+                </li>
+                <li>
+                    <a href="#about us">about us</a>
+                </li>
+                <li>
+                    <a href="#contact as">contact as</a>
+                </li>
+                <li>
+                    <a href="#gallery">gallery</a>
+                </li>
+            </ul>
+        </nav>
+        <h2>ordered list</h2>
+        <ol>
+            <li>animal</li>
+            <article>dogs are the ultimate protecters of humans.did you know that dogs are fearless againts wild animals like lions loots of people think dogs are noisey but they actually bark because <ol>
+                <li>they are happy</li>
+                <li>they are telling you something</li>
+                <li>they are furrious once someone you dont know comes into you compound</li>
+            </ol><img src="https://th.bing.com/th/id/OIP.SPwDmj7siBHlEngxpeadlwHaFn?w=232&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" </article>
+        </ol>
+        <footer>
+            &copy celino
+        </footer>
+    </body>
+</html>
