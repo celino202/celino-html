@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<HTML>
+    <header>
+        <title>
+            CSS GRID LAYOUT
+        </title>
+        <style>
+            .item1{
+                grid-area: header;
+            }
+            .item2{
+                grid-area: manu;
+            }
+            .item3{
+                grid-area: main;
+            }
+            .item4{
+                grid-area: footer;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                grid-template-areas: 'header header header header header'
+                'manu main main main main'
+                'manu footer footer footer footer';
+                background-color: turquoise;
+                padding: 10px;
+                height: 100px;
+            }
+            .container div{
+                background-color: blue;
+                text-align: center;
+                border: 5px solid red;
+            }
+        </style>
+    </header>
+    <body>
+        <Div class="container">
+            <div class="item1">header</div>
+            <div class="item2">manu</div>
+            <div class="item3">main</div>
+            <div class="item4">footer</div>
+        </Div>
+    </body>
+</HTML>
