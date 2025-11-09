@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>SLIDER IN HTML FOR IMAGE</title>
+    </head>
+    <body>
+        <img class="mySlides" src="https://th.bing.com/th?q=Clown+Pierce+Scythe+PNG&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-WW&cc=NG&setlang=en&adlt=moderate&t=1&mw=247" alt="CLOWN PIERCE SCYTHE">
+        <img class="mySlides" src="https://th.bing.com/th/id/OIP.4ymuo0msCJpiIDSjqzrkzwHaEK?w=315&h=180&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.5&pid=1.7&rm=3"alt="DQUAVIS VS DREAM VS TEACHNOBLADE">
+        <img class="mySlides" src="https://th.bing.com/th/id/OIP.VjCTOZwWBaS4sThpfXfsXAAAAA?w=315&h=180&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.5&pid=1.7&rm=3"alt="TEACHNOBLADE VS CLOWN PIERCE">
+        <img class="mySlides"
+            src="https://th.bing.com/th/id/OIP.TcJUf6SkCi7M2Os-OgKaUwHaEK?w=324&h=182&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.5&pid=1.7&rm=3"
+            alt="CLOWN PIECE VS CLOWN PIERCE">
+        <script>
+            myindex=0
+            function carousel(){
+                var i
+                var x=document.getElementsByClassName(mySlides);
+                for (i = 0; i < x.length; i++){
+                    x[i].style.display="none"
+
+            }
+            myindex++
+            if (myindex > x.length){
+                myindex = 1
+            }
+            x[myindex-1].style.display="block"
+            setTimeout(carousel,3000)
+        }
+        carousel()
+        </script>
+    </body>
+</html>
